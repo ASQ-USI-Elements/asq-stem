@@ -1,0 +1,20 @@
+{
+  "name": "asq-stem",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ASQ-USI/asq-stem",
+  "authors": [
+    "Vasileios Triglianos <triglian@gmail.com>",
+    "Zhenfei Nie <zhenfei.nie@gmail.com>"
+  ],
+  "description": "ASQ Stem element. To be used inside question elements.",
+  "keywords": [
+    "ASQ"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.0-rc1"
+  }
+}

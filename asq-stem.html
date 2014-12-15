@@ -1,0 +1,25 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../asq-element-conf/asq-element-conf.html">
+
+<polymer-element name="asq-stem">
+
+  <template>
+    <div class="asq-stem">
+      <content></content>
+    </div>
+  </template>
+
+  <script>
+    (function() {
+      var p = {
+
+        type_ : "asq-stem",
+
+      };
+      
+      ASQ.mixin(p, ASQ.ElementType);
+      ASQ.mixin(p, ASQ.Role);
+      Polymer('asq-stem', p);
+    })();
+  </script>
+</polymer-element>
