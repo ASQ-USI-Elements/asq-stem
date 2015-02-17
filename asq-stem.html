@@ -1,5 +1,5 @@
 <link rel="import" href="../polymer/polymer.html">
-<link rel="import" href="../asq-element-common/asq-element-common.html">
+<link rel="import" href="../asq-base/asq-base.html">
 
 <polymer-element name="asq-stem">
 
@@ -15,9 +15,7 @@
 
       };
       
-
-      ASQ.mixin2(p, ASQ.RoleMixin);
-      Polymer.mixin(p, ASQ.ElementTypeMixin);
+      ASQ.asqify(p);
       Polymer('asq-stem', p);
     })();
   </script>
