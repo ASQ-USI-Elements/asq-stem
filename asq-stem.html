@@ -1,7 +1,6 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../asq-base/asq-base.html">
 
-
 <!--
 `asq-stem` is used to define title of questions or exercises.
 
@@ -10,29 +9,23 @@
 
 @element asq-stem
 @group ASQ Elements
+@demo demo/index.html
 @blurb Element used to define title of questions or exercises.
 @homepage http://github.com/ASQ-USI-Elements/asq-stem
 -->
-<polymer-element name="asq-stem">
-
-
+<dom-module id="asq-stem">
   <template>
-    <style>
-
-    </style>
-    <div class="asq-stem">
-      <content></content>
-    </div>
+    <content></content>
   </template>
-
   <script>
-    (function() {
-      var proto = {
-
-      };
-      
-      ASQ.asqify(proto);
-      Polymer('asq-stem', proto);
-    })();
+    (function () {
+      Polymer({ 
+        is: 'asq-stem',
+        behaviors: [ASQ.elementTypeBehavior]
+      });
+    }());
   </script>
-</polymer-element>
+</dom-module>
+
+
+
